@@ -1,0 +1,2 @@
+curl -s -b cookies.txt -X PUT "http://localhost:5000/customer/auth/review/1?review=Excellent%20book"
+{"message":"Review added/modified successfully","book":{"author":"Chinua Achebe","title":"Things Fall Apart","reviews":{"jonatasuser":"Excellent book"}}}
